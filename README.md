@@ -14,26 +14,26 @@ A web-based IoT control system built on ESP32 that allows real-time control of L
 
 ▶️ Watch the system in action:
 
-<a href="https://youtu.be/8Q7R_TUvaRw" target="_blank">Open Demo Video</a>
+👉 https://youtu.be/8Q7R_TUvaRw
 
 ---
 
 ## 📂 Source Code
 
 ### 🔧 Firmware
-👉 [ESP32 Code](./firmware)
+
+👉 [Open Firmware Folder](./firmware)  
+👉 [View Main Code](./firmware/main.ino)
+
+---
 
 ### 🌐 Frontend Files
 
-- 📄 HTML  
-  👉 [index.html](./data/index.html)
+👉 [Open Data Folder](./data)
 
-- 🎨 CSS  
-  👉 [style.css](./data/style.css)
-
-- ⚡ JavaScript  
-  👉 [script.js](./data/script.js)
-
+- 📄 [index.html](./data/index.html)  
+- 🎨 [style.css](./data/style.css)  
+- ⚡ [script.js](./data/script.js)
 ---
 
 ## ⚙️ System Overview
