@@ -12,8 +12,27 @@ A web-based IoT control system built on ESP32 that allows real-time control of L
 
 ## 🎬 Demo
 
-▶️ Watch the system in action:  
-https://youtu.be/8Q7R_TUvaRw
+▶️ Watch the system in action:
+
+<a href="https://youtu.be/8Q7R_TUvaRw" target="_blank">Open Demo Video</a>
+
+---
+
+## 📂 Source Code
+
+### 🔧 Firmware
+👉 [ESP32 Code](./firmware)
+
+### 🌐 Frontend Files
+
+- 📄 HTML  
+  👉 [index.html](./data/index.html)
+
+- 🎨 CSS  
+  👉 [style.css](./data/style.css)
+
+- ⚡ JavaScript  
+  👉 [script.js](./data/script.js)
 
 ---
 
@@ -26,7 +45,7 @@ This project combines embedded programming, networking, and a web-based user int
 - ESP32 Web Server with REST API (`/on`, `/off`, `/brightness`)
 - SPIFFS file system for hosting frontend files
 - Automatic file serving with correct MIME types
-- WiFiManager for automatic WiFi configuration (captive portal)
+- WiFiManager with Captive Portal for easy WiFi setup
 - mDNS support (`http://controlLED.local`)
 
 ### 💡 Hardware Control
@@ -48,7 +67,8 @@ This project combines embedded programming, networking, and a web-based user int
 - ESP32 (Arduino Framework)
 - HTML, CSS, JavaScript
 - WebServer library
-- WiFiManager
+- WiFiManager (Captive Portal)
+- mDNS
 - SPIFFS
 - PWM (LEDC)
 
@@ -64,9 +84,9 @@ This project combines embedded programming, networking, and a web-based user int
 
 ## 📁 Project Structure
 
-firmware/     → ESP32 source code  
-data/         → Web files (HTML, CSS, JS, images)  
-docs/         → Demo and assets  
+firmware/ → ESP32 source code  
+data/ → Web files (HTML, CSS, JS, images)  
+docs/ → Demo and assets  
 
 ---
 
@@ -74,7 +94,7 @@ docs/         → Demo and assets
 
 1. Upload firmware to ESP32  
 2. Upload SPIFFS data (HTML/CSS/JS files)  
-3. Connect to WiFi (via WiFiManager portal)  
+3. Connect to WiFi using Captive Portal  
 4. Access via IP address or `.local` domain  
 
 ---
